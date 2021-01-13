@@ -2,3 +2,8 @@
   background-color: red;
   height: 970px;
 }
+h1 {
+  background-color: green;
+  color: white;
+  text-align: center;
+}

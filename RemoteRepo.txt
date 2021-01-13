@@ -1,0 +1,33 @@
+Remote Repo
+1) Create a new repo on GitHub and call it basic_repo - (In github)
+    •	Go to github.com
+    •	Login or signup into github
+    •	Click + (plus top right hand conner)
+    •	Choose New Repository
+    •	Name it basic_repo
+    •	Check the public box
+    •	Check Add a README file
+    •	Click Create repository
+    •	Copy url at top add .git to the end: https://github.com/RevHam1/basic_repo.git
+2) Create a local repository also called basic_repo - (In terminal) 
+    •	Go to directory where repository will be created
+    •	git clone https://github.com/RevHam1/basic_repo.git
+    •	cd basic_repo
+3) Create some files inside your local repo and add some content on them - (In terminal)
+    •	touch index.html
+    •	touch styles.css
+    •	(add content to each file - In VSC)
+4) Add(, commit, and push these changes to GitHub - (In terminal)
+    •	git add .
+    •	git commit -m "Added index.html and styles.css"
+    •	git push
+    •	follow prompts to sign in
+5) Make some more changes to the local copy of your file and push them to GitHub - (In terminal)
+    •	(add new content to index.html and styles.css and creat a RemoteRepo.txt - In VSC)
+    •	touch RemoteRepo.txt
+    •	git add .
+    •	git commit -m "Updated index.html, styles.css and Added RemoteRepo.txt "
+    •	git push
+6) Go to your GitHub account and see your new repo and the changes you've made (In github)
+    •	Click repository name or use refresh button to see changes.
+7) Upload a simple .txt file that outlines the steps you took
